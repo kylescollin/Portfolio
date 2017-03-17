@@ -169,7 +169,7 @@ h3 {
         }
 
 #wrapper {
-    padding: 0.5% 0.5% 0.5% 0.5%;
+    padding: 0.5% 0.5% 0.1% 0.5%;
     margin-left: 40%;
     background-color: #000000;
 }
@@ -184,7 +184,7 @@ h3 {
     }
         .portfolio_item img {
             display: block;
-            width: 65%;
+            /*width: 65%;*/
             margin: 0px auto;
             padding: 50px 0px 0px 0px;
         }
@@ -195,6 +195,14 @@ h3 {
 
         #placeiq {
             background-color: #6757a5;
+        }
+
+        #watchcollective {
+            background-color: #1f3e54;
+        }
+
+        #geomarker {
+            background-color: #947ac4;
         }
 
         
@@ -244,7 +252,7 @@ h3 {
         margin-top: 60px;
     }
     .portfolio_item img {
-        width: 80%;
+        /*width: 80%;*/
     }
 
 }
@@ -261,7 +269,7 @@ h3 {
         font-size: 2em;
     }
     .portfolio_item img {
-        width: 90%;
+        /*width: 90%;*/
     }
 }
 
