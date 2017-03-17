@@ -114,10 +114,15 @@ textarea {
         width: 55px;
     }
 
+    #content_wrapper {
+        position: absolute;
+        padding-right: 5%;
+        bottom: 10%;
+    }
+
     #welcome {
         font-size: 2.5em;
         line-height: 1.2em;
-        margin-top: 40vh;
         width: 100%;
     }
 
