@@ -98,17 +98,11 @@ textarea {
 body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.9em;
-    font-weight: 400;
 }
 
 a {
     text-decoration: none;
-    color: #ffffff;
 }
-a:hover {
-    text-decoration: underline;
-}
-
 
 h1 {
     font-family: 'Roboto Slab', serif;
@@ -117,20 +111,12 @@ h1 {
     line-height: 1.2em;
     color: #000000;
     padding: 0px;
-}
-h2{
-    font-family: 'Roboto Slab', serif;
-    font-size: 2em;
-    font-weight: 300;
-    line-height: 1.4em;
-    margin: 0;
-    color: #ffffff;
+    margin-top: 4%;
 }
 
 .homePageSection {
     position: relative;
     height: 80vh;
-    min-height: 750px;
     overflow: auto;
 }
 
@@ -138,83 +124,37 @@ h2{
     width: 80%;
     transform: translate(-50%, -50%);
     position: absolute;
-    top: 45%;
+    top: 50%;
     left: 50%;
 }
 
 #slide1 {
     background-color: #f2f2f2;
     text-align: center;
+    padding: 5%;
 }
     #logo {
         width: 60px;
-        margin: 0 auto 40px auto;
+        margin: 30% auto 0 auto;
     }
     #hook {
         font-size: 1em;
         width: 70%;
-        max-width: 750px;
-        margin: 50px auto 0 auto;
+        margin: 5% auto 0 auto;
         font-weight: normal;
     }
     #cta {
         color: #000000;
-        position: absolute;
-        transform: translate(-50%, -50%);
-        bottom: 0%;
-        left: 50%;
+        margin: 10% auto 0 auto;
         font-family: 'Roboto Slab', serif;
         font-size: 1.5em;
-        font-weight: 300;
-        line-height: 1em;
-    }
-    #cta img {
-        margin-top: 20px;
-        width: 40px;
+        font-weight: lighter;
+        line-height: 2em;
     }
 
 #slide2 {
     background-color: #8275b4;
 }
-    .number {
-        position: absolute;
-        top: 5%;
-        left: 5%;
-        color: #ffffff;
-        font-family: 'Roboto Slab', serif;
-        font-size: 1.5em;
-        font-weight: 100;
-        letter-spacing: 0.1em;
-    }
-    .slideContent {
-        position: absolute;
-        bottom: 10%;
-        left: 5%;
-    }
-    .slideContent .subtitle {
-        font-family: 'Roboto Slab', serif;
-        font-size: 1.2em;
-        font-weight: 300;
-        color: #ffffff;
-        opacity: 0.5;
-    }
-    .slideContent .description {
-        font-family: 'Open Sans', sans-serif;
-        line-height: 1.9em;
-        font-weight: 300;
-        color: #ffffff;
-        width: 30%;
-        padding-top: 20px;
-    }
-    .slideContent .learnmore {
-        font-family: 'Roboto Slab', serif;
-        font-size: 1.5em;
-        font-weight: 300;
-        color: #ffffff;
-        opacity: 0.5;
-        padding-top: 40px;
-    }
-
 
 @media screen and (max-width: 1680px) {
 
