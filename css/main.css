@@ -131,6 +131,7 @@ h2{
     position: relative;
     height: 80vh;
     min-height: 750px;
+    max-height: 900px;
     overflow: auto;
 }
 
@@ -175,6 +176,9 @@ h2{
 
 #slide2 {
     background-color: #8275b4;
+    background-image: url(../img/features/placeiq-hd.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
 }
     .number {
         position: absolute;
@@ -190,6 +194,7 @@ h2{
         position: absolute;
         bottom: 10%;
         left: 5%;
+        width: 30%;
     }
     .slideContent .subtitle {
         font-family: 'Roboto Slab', serif;
@@ -203,7 +208,6 @@ h2{
         line-height: 1.9em;
         font-weight: 300;
         color: #ffffff;
-        width: 30%;
         padding-top: 20px;
     }
     .slideContent .learnmore {
@@ -215,32 +219,144 @@ h2{
         padding-top: 40px;
     }
 
+#slide3 {
+    background-color: #1ea4a7;
+    background-image: url(../img/features/eocreport-hd.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+#slide4 {
+    background-color: #868278;
+    background-image: url(../img/features/foxandbear-hd.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+#slide5 {
+    background-color: #306589;
+    background-image: url(../img/features/watches-hd.jpg);
+    background-position: 85% bottom;
+    background-repeat: no-repeat;
+}
+
 
 @media screen and (max-width: 1680px) {
 
 }
 
 @media screen and (max-width: 1280px) {
-
+    .homePageSection {
+        height: 700px;
+    }
+    #slide2 {
+        background-image: url(../img/features/placeiq-md.png);
+    }
+    #slide3 {
+        background-image: url(../img/features/eocreport-md.png);
+    }
+    #slide4 {
+        background-image: url(../img/features/foxandbear-md.jpg);
+    }
 }
 
 @media screen and (max-width: 980px) {
-
+    h1 {
+        font-size: 2em;
+        line-height: 1.3em;
+    }
+    .homePageSection {
+        height: 900px;
+    }
+    #hook {
+        font-size: 0.9em;
+    }
+    .number {
+        left: 10%;
+    }
+    .slideContent {
+        position: absolute;
+        top: 12%;
+        left: 10%;
+        width: 80%;
+    }
+    #slide2 {
+        background-position: right 125%;
+    }
+    #slide3 {
+        background-position: right bottom;
+    }
+    #slide4 {
+        background-position: right bottom;
+    }
 }
 
 @media screen and (max-width: 736px) {
 
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+        line-height: 1.3em;
+    }
     .homePageSection {
         height: 700px;
     }
+    .centered {
+        top: 45%;
+    }
+    #hook {
+        font-size: 0.9em;
+        line-height: 1.8em;
+        margin-top: 30px;
+        width: 80%;
+    }
+    .number {
+        left: 10%;
+    }
+    .slideContent {
+        position: absolute;
+        top: 12%;
+        left: 10%;
+        width: 80%;
+    }
+    .slideContent .description {
+        font-size: 0.9em;
+    }
+    .slideContent .learnmore {
+        font-size: 1.3em;
+        padding-top: 18px;
+    }
+    #slide2 {
+        background-image: url(../img/features/placeiq-sm.png);
+        background-position: right 120%;
+    }
+    #slide3 {
+        background-image: url(../img/features/eocreport-sm.png);
+    }
+    #slide4 {
+        background-image: url(../img/features/foxandbear-sm.jpg);
+    }
+    
 
 }
 
 @media screen and (max-width: 360px) {
-
+    .homePageSection {
+        height: 600px;
+    }
+    .centered {
+        top: 40%;
+    }
+    #hook {
+        font-size: 0.8em;
+    }
+    #slide3 {
+        background-image: url(../img/features/eocreport-xs.png);
+    }
+    #slide4 {
+        background-image: url(../img/features/foxandbear-xs.jpg);
+    }
 }
 
 
