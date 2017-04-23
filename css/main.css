@@ -120,11 +120,11 @@ h1 {
 }
 h2{
     font-family: 'Roboto Slab', serif;
-    font-size: 2em;
+    font-size: 2.2em;
     font-weight: 300;
     line-height: 1.4em;
     margin: 0;
-    color: #ffffff;
+    /*color: #ffffff;*/
 }
 
 .homePageSection {
@@ -195,6 +195,7 @@ h2{
         bottom: 10%;
         left: 5%;
         width: 30%;
+        color: #ffffff;
     }
     .slideContent .subtitle {
         font-family: 'Roboto Slab', serif;
