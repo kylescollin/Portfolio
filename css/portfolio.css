@@ -1,11 +1,190 @@
-#topAreaPlaceIQ {
-    background-image: url(../img/items/placeiq/header.jpg);
-    background-position: center bottom;
+/* ==========================================================================
+   Portfolio Syles
+   ========================================================================== */
+
+.portfolioItemHeader {
+    width: 100%;
+    height: 70vh;
+    max-height: 700px;
     background-repeat: no-repeat;
-    background-color: #6759a3;
-    height: 80vh;
-    color: #fff;
-    font-family: 'Josefin Sans', sans-serif;
-    letter-spacing: 0.4em;
-    font-size: 2vw;
+}
+#logoCorner {
+    width: 60px;
+    height: 60px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+.copyBlock {
+    text-align: center;
+    width: 50%;
+    max-width: 750px;
+    font-size: 15px;
+    margin: 40px auto 40px auto;
+}
+
+.twoColumn {
+    margin: 60px auto 40px auto;
+    padding: 0px 10% 0px 10%;
+    max-width: 1400px;
+    clear: both;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.3em;
+    font-weight: 100;
+    line-height: 1.4em;
+    color: #7c7c7c;
+}
+.columnOne {
+    float: left;
+    width: 50%;
+}
+.columnTwo {
+    margin-left: 50%;
+}
+
+.featuredImage {
+    text-align: center;
+    width: 100%;
+    margin: 40px auto 40px auto;
+}
+
+.featuredImage img {
+    max-width: 90%;
+    height: auto;
+}
+
+@media screen and (max-width: 980px) {
+    .portfolioItemHeader {
+        height: 50vh;
+        max-height: 500px;
+    }
+    #logoCorner {
+        width: 45px;
+        height: 45px;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    .copyBlock {
+        width: 80%;
+    }
+    .twoColumn {
+        padding: 0px;
+    }
+    .twoColumn img {
+        max-width: 80%;
+        height: auto;
+    }
+    .columnOne{
+        float: none;
+        width: 100%;
+    }
+    .columnTwo{
+        margin: 50px 0% 0px 0%;
+    }
+    .featuredImage {
+        margin: 20px auto 20px auto;
+    }
+    .featuredImage img {
+        max-width: 80%;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .portfolioItemHeader {
+        height: 30vh;
+        max-height: 300px;
+    }
+}
+
+/* ==========================================================================
+   PlaceIQ
+   ========================================================================== */
+
+#placeiqHeader {
+    background-color: #8275b4;
+    background-image: url(../img/portfolio/placeiq/feature.jpg);
+    background-position: center center;
+    background-size: auto 100%;
+}
+
+/* ==========================================================================
+   End of Campaign Report
+   ========================================================================== */
+
+#eocreportHeader {
+    background-color: #1ea4a7;
+    background-image: url(../img/portfolio/eocreport/feature.jpg);
+    background-position: center bottom;
+}
+
+@media screen and (max-width: 980px) {
+    #eocreportHeader {
+        background-size: 80%;
+    }
+}
+
+/* ==========================================================================
+   Fox And Bear
+   ========================================================================== */
+
+#foxandbearHeader {
+    background-color: #868278;
+    background-image: url(../img/portfolio/foxandbear/feature.jpg);
+    background-position: center bottom;
+}
+
+@media screen and (max-width: 980px) {
+    #foxandbearHeader {
+        background-size: 80%;
+    }
+}
+
+/* ==========================================================================
+   The Watch Collective
+   ========================================================================== */
+
+#watchHeader {
+    background-color: #306589;
+    background-image: url(../img/portfolio/watches/feature.jpg);
+    background-position: center bottom;
+}
+
+@media screen and (max-width: 980px) {
+    #watchHeader {
+        background-size: 80%;
+    }
+}
+
+/* ==========================================================================
+   Geomarker
+   ========================================================================== */
+
+#geomarkerHeader {
+    background-color: #4e556b;
+    background-image: url(../img/portfolio/geomarker/feature.jpg);
+    background-position: center bottom;
+}
+
+@media screen and (max-width: 980px) {
+    #geomarkerHeader {
+        background-size: 80%;
+    }
+}
+
+/* ==========================================================================
+   Mobile Ads
+   ========================================================================== */
+
+#mobileadsHeader {
+    background-color: #1ab2be;
+    background-image: url(../img/portfolio/mobileads/feature.jpg);
+    background-position: center bottom;
+}
+
+@media screen and (max-width: 980px) {
+    #mobileadsHeader {
+        background-size: 80%;
+    }
 }
