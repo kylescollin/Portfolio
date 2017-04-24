@@ -53,6 +53,18 @@
     height: auto;
 }
 
+.returnHome {
+    text-align: center;
+    margin: 40px auto 40px auto;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5em;
+    font-weight: 100;
+    line-height: 1.4em;
+}
+.returnHome a {
+    color: #7c7c7c;
+}
+
 @media screen and (max-width: 980px) {
     .portfolioItemHeader {
         height: 50vh;
