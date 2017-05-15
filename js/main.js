@@ -10,4 +10,9 @@ $(document).ready(function(){
 	    $("#cta img").effect( "bounce", {times:2}, 800);
 	});
 
+	$(".hamburger").click(function(){
+		$(this).toggleClass("is-active");
+		$("#menu").toggleClass("is-active");
+	});
+
 });

@@ -8,12 +8,6 @@
     max-height: 700px;
     background-repeat: no-repeat;
 }
-#logoCorner {
-    width: 60px;
-    height: 60px;
-    padding-top: 40px;
-    padding-left: 40px;
-}
 .copyBlock {
     text-align: center;
     width: 50%;
@@ -69,12 +63,6 @@
     .portfolioItemHeader {
         height: 50vh;
         max-height: 500px;
-    }
-    #logoCorner {
-        width: 45px;
-        height: 45px;
-        padding-top: 20px;
-        padding-left: 20px;
     }
     .copyBlock {
         width: 80%;

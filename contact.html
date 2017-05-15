@@ -11,21 +11,23 @@
         <!-- Place favicon.ico in the root directory -->
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/portfolio.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <!-- Header -->
-            <div id="watchHeader" class="portfolioItemHeader">
+        <!-- About -->
+        <div id="about" class="aboutSection">
                 <div id="logo"><a href="index.html"><img src="img/kylescollin.svg"></a></div>
                 <div class="col">
                     <div class="hamburger" id="hamburger-1">
@@ -39,43 +41,28 @@
                     <h2><a href="about.html">About</a></h2><br />
                     <h2><a href="contact.html">Contact</a></h2><br />
                 </div>
-            </div>
 
-        <!-- Introduction -->
-            <div class="copyBlock">
-                <h1>The Watch Collective</h1>
-                I worked on a freelance project designing a website to sell vintage watches. I worked on a couple versions but ultimately landed on this rustic version.
-            </div>
-
-            <div class="featuredImage">
-                <img src="img/portfolio/watches/watches1.jpg">
-            </div>
-
-            <div class="featuredImage">
-                <img src="img/portfolio/watches/watches2.jpg">
-            </div>
-
-        <!-- Return Home -->
-            <div class="returnHome">
-                <a href="index.html#slide4">‹&nbsp;&nbsp;view more projects</a>
-            </div>
-
-        <!-- Footer -->
-            <div id="footer" class="homePageSection">
-                Hit me up! &nbsp; <a href="mailto:hello@kylescollin.com">hello@kylescollin.com</a>
-                <div id="social">
-                    <a href="https://dribbble.com/kylescollin" target="_blank"><img src="img/dribbble.svg"></a>
-                    <a href="https://www.instagram.com/kylescollin/" target="_blank"><img src="img/instagram.svg"></a>
-                    <a href="https://www.linkedin.com/in/kylescollin/" target="_blank"><img src="img/linkedin.svg"></a>
-                    <a href="https://twitter.com/kylescollin" target="_blank"><img src="img/twitter.svg"></a>
+                <div id="contactForm">
+                    <h1>Don't be shy, just say hi!</h1>
+                    <form action="https://formspree.io/hello@kylescollin.com" method="POST">
+                        <input type="text" name="name" placeholder="Your name">
+                        <input type="email" name="email" placeholder="Your email">
+                        <input type="text" name="_gotcha" style="display:none" />
+                        <textarea name="message" placeholder="Your message"></textarea>
+                        <button type="submit">Submit &nbsp; ›</button>
+                    </form>
+                    <div id="social">
+                        <a href="https://dribbble.com/kylescollin" target="_blank"><img src="img/dribbble.svg"></a>
+                        <a href="https://www.instagram.com/kylescollin/" target="_blank"><img src="img/instagram.svg"></a>
+                        <a href="https://www.linkedin.com/in/kylescollin/" target="_blank"><img src="img/linkedin.svg"></a>
+                        <a href="https://twitter.com/kylescollin" target="_blank"><img src="img/twitter.svg"></a>
+                    </div>
+                    <div id="legal">Copyright 2017 - Kyle Scollin</div>
                 </div>
-                <div id="legal">Copyright 2017 - Kyle Scollin</div>
             </div>
 
 
         <!-- Javascript Extras -->
-        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
