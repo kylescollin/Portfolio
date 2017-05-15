@@ -130,7 +130,6 @@ h3{
     font-family: 'Roboto Slab', serif;
     font-size: 1.2em;
     font-weight: 300;
-    color: #ffffff;
     opacity: 0.5;
     margin: 0px;
     padding: 0px;
@@ -142,6 +141,7 @@ h3{
     min-height: 750px;
     max-height: 900px;
     overflow: auto;
+    color: #ffffff;
 }
 
 .centered {
@@ -152,18 +152,246 @@ h3{
     left: 50%;
 }
 
+#logo {
+    width: 60px;
+    padding: 20px;
+    margin: 0px 0px 0px 5%;
+    background-color: #eeeeee;
+}
+
+#menu {
+    position: absolute;
+    right: 0;
+    top: -320px;
+    width: 100%;
+    height: 220px;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 800;
+    text-align: center;
+    color: #ffffff;
+    padding: 50px 0px 50px 0px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#menu.is-active {
+    -webkit-transform: translateY(320px);
+    -ms-transform: translateY(320px);
+    -o-transform: translateY(320px);
+    transform: translateY(320px);
+}
+
+#footer {
+    background-color: #343434;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2em;
+    font-weight: 400;
+    line-height: 1.4em;
+    margin: 0;
+    padding-top: 50px;
+    color: #ffffff;
+    height: 20vh;
+    min-height: 250px;
+    max-height: 300px;
+}
+#footer a {
+    color: #ffffff;
+    font-weight: 300;
+    opacity: 0.9;
+}
+#social {
+    width: 450px;
+    margin: 10px auto 0 auto;
+}
+#social img{
+    width: 17%;
+    margin: 15px;
+}
+#legal {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 0.4em;
+}
+
+/* ==========================================================================
+   Menu - Hamburger Button
+   ========================================================================== */
+
+.col {
+    display: block;
+    float:left;
+    position: absolute;
+    right: 5%;
+    top: 20px;
+    margin: 1% 0 1% 1.6%;
+    z-index: 1000;
+    color: #ecf0f1;
+}
+
+.hamburger .line{
+    width: 40px;
+    height: 3px;
+    background-color: #ecf0f1;
+    display: block;
+    margin: 8px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.hamburger:hover{
+    cursor: pointer;
+}
+
+#hamburger-1.is-active .line:nth-child(2){
+    opacity: 0;
+}
+
+#hamburger-1.is-active .line:nth-child(1){
+    -webkit-transform: translateY(11px) rotate(45deg);
+    -ms-transform: translateY(11px) rotate(45deg);
+    -o-transform: translateY(11px) rotate(45deg);
+    transform: translateY(11px) rotate(45deg);
+}
+
+#hamburger-1.is-active .line:nth-child(3){
+    -webkit-transform: translateY(-11px) rotate(-45deg);
+    -ms-transform: translateY(-11px) rotate(-45deg);
+    -o-transform: translateY(-11px) rotate(-45deg);
+    transform: translateY(-11px) rotate(-45deg);
+}
+
+/* ==========================================================================
+   About
+   ========================================================================== */
+
+.aboutSection {
+    position: relative;
+    height: 100vh;
+    min-height: 750px;
+    max-height: 1200px;
+    overflow: auto;
+}
+
+#about {
+    background-color: #343434;
+}
+
+#me {
+    float: right;
+    max-width: 600px;
+}
+#me img {
+    width: 100%;
+    height: auto;
+}
+.aboutContent {
+    position: relative;
+    padding-top: 10vh;
+    left: 5%;
+    width: 90%;
+    color: #ffffff;
+}
+.aboutContent a {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5em;
+    font-weight: 300;
+    opacity: 0.8;
+    // margin: 0;
+    // padding-top: 50px;
+}
+.aboutContent h1 {
+    margin-top: 30px;
+}
+.aboutContent h2 {
+    max-width: 750px;
+}
+
+#aboutLegal {
+    margin-top: 10%;
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 0.4em;
+}
+
+/* ==========================================================================
+   Contact
+   ========================================================================== */
+#contactForm {
+    width: 40%;
+    margin: 0 auto 0 auto;
+    color: #ffffff;
+    text-align: center;
+}
+#contactForm input {
+    width: 40%;
+    margin: 0 6% 0 0;
+    padding: 10px;
+    font-size: 12px;
+    background-color: #343434;
+    border: 0px;
+    border-bottom: 1px solid #fff;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    opacity: 0.7;
+}
+#contactForm textarea {
+    width: 96%;
+    height: 300px;
+    margin: 30px 0px 10px 0px;
+    padding: 10px;
+    background-color: #262626;
+    border: 0px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    line-height: 1.7em;
+    opacity: 0.7;
+}
+
+#contactForm button {
+    border-radius: 5px;
+    border: 0px;
+    width: 20%;
+    color: #000000;
+    margin-top: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 0.9em;
+    font-weight: 300;
+    background-color: #ffffff;
+}
+
+#contactForm #social {
+    margin-top: 30px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #343434 inset !important;
+    -webkit-text-fill-color: #ffffff;
+}
+
+/* ==========================================================================
+   Slides
+   ========================================================================== */
+
 #slide0 {
     background-color: #343434;
     background-image: url(../img/features/arm-hd.jpg);
     background-position: right bottom;
     background-repeat: no-repeat;
 }
-    #logo {
-        width: 60px;
-        padding: 20px;
-        margin: 0px 0px 0px 5%;
-        background-color: #ffffff;
-    }
     #hook {
         font-size: 1em;
         max-width: 750px;
@@ -265,39 +493,6 @@ h3{
     background-repeat: no-repeat;
 }
 
-#footer {
-    background-color: #f2f2f2;
-    text-align: center;
-    font-family: 'Roboto Slab', serif;
-    font-size: 2em;
-    font-weight: 400;
-    line-height: 1.4em;
-    margin: 0;
-    padding-top: 50px;
-    color: #000000;
-    height: 20vh;
-    min-height: 250px;
-    max-height: 300px;
-}
-#footer a {
-    color: #5B5B5B;
-    font-weight: 300;
-}
-#social {
-    width: 450px;
-    margin: 10px auto 0 auto;
-}
-#social img{
-    width: 17%;
-    margin: 15px;
-    opacity: 0.6;
-}
-#legal {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    font-size: 0.4em;
-}
-
 
 @media screen and (max-width: 1680px) {
 
@@ -328,7 +523,28 @@ h3{
     #slide6 {
         background-image: url(../img/features/mobileads-md.jpg);
     }
-}
+    .aboutContent {
+        position: relative;
+        padding-top: 0;
+        left: 5%;
+    }
+    .aboutContent h2 {
+        max-width: none;
+    }
+    #me {
+        float: none;
+        width: 100%;
+        margin: 0;
+        max-width: none;
+        text-align: center;
+    }
+    #me img {
+        width: 50%;
+        height: auto;
+    }
+    #hook {
+        max-width: none;
+    }
 
 @media screen and (max-width: 980px) {
     h1 {
@@ -338,11 +554,40 @@ h3{
     #slide0 h2 {
         font-size: 1.5em;
     }
+    #menu h2 {
+        font-size: 1.5em;
+    }
     .homePageSection {
         height: 900px;
     }
     #logo {
         margin: 0px 0px 0px 10%;
+        width: 50px;
+        padding: 10px;
+    }
+    #menu {
+        height: 170px;
+    }
+    .col {
+        right: 10%;
+        top: 10px;
+    }
+    .hamburger .line{
+        width: 30px;
+        height: 2px;
+    }
+    #hamburger-1.is-active .line:nth-child(1){
+        -webkit-transform: translateY(10px) rotate(45deg);
+        -ms-transform: translateY(10px) rotate(45deg);
+        -o-transform: translateY(10px) rotate(45deg);
+        transform: translateY(10px) rotate(45deg);
+    }
+
+    #hamburger-1.is-active .line:nth-child(3){
+        -webkit-transform: translateY(-10px) rotate(-45deg);
+        -ms-transform: translateY(-10px) rotate(-45deg);
+        -o-transform: translateY(-10px) rotate(-45deg);
+        transform: translateY(-10px) rotate(-45deg);
     }
     #hook {
         font-size: 0.9em;
@@ -376,7 +621,7 @@ h3{
         background-position: right bottom;
     }
     #slide6 {
-        background-position: center bottom;
+        background-position: center 400px;
     }
 }
 
@@ -391,7 +636,7 @@ h3{
         margin: 0px 0px 15px 0px;
     }
     .homePageSection {
-        height: 900px;
+        height: 600px;
     }
     .centered {
         top: 45%;
@@ -416,6 +661,9 @@ h3{
     .slideContent .learnmore {
         font-size: 1.3em;
         padding-top: 18px;
+    }
+    #slide0{
+        height: 900px;
     }
     #slide1 {
         background-image: url(../img/features/placeiq-sm.png);
@@ -446,6 +694,9 @@ h3{
     #footer a {
         font-size: 0.8em;
     }
+    .aboutContent #hook {
+        line-height: 2em;
+    }
 
 }
 
@@ -461,6 +712,7 @@ h3{
     }
     #slide0 {
         background-image: url(../img/features/arm-xs.jpg);
+        height: 770px;
     }
     #slide2 {
         background-image: url(../img/features/eocreport-xs.png);
