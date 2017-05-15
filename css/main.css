@@ -302,9 +302,6 @@ h3{
     // margin: 0;
     // padding-top: 50px;
 }
-.aboutContent h1 {
-    margin-top: 30px;
-}
 .aboutContent h2 {
     max-width: 750px;
 }
@@ -527,6 +524,9 @@ input:-webkit-autofill {
         position: relative;
         padding-top: 0;
         left: 5%;
+    }
+    .aboutContent h1 {
+        margin-top: 20px;
     }
     .aboutContent h2 {
         max-width: none;
