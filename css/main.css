@@ -137,7 +137,7 @@ h3{
 
 .homePageSection {
     position: relative;
-    height: 80vh;
+    height: 90vh;
     min-height: 750px;
     max-height: 900px;
     overflow: auto;
@@ -148,15 +148,14 @@ h3{
     width: 80%;
     transform: translate(-50%, -50%);
     position: absolute;
-    top: 45%;
+    top: 35%;
     left: 50%;
+    text-align: center;
 }
 
 #logo {
-    width: 60px;
-    padding: 20px;
+    width: 100px;
     margin: 0px 0px 0px 5%;
-    background-color: #eeeeee;
 }
 
 #menu {
@@ -386,13 +385,13 @@ input:-webkit-autofill {
 #slide0 {
     background-color: #343434;
     background-image: url(../img/features/arm-hd.jpg);
-    background-position: right bottom;
+    background-position: center bottom;
     background-repeat: no-repeat;
 }
     #hook {
         font-size: 1em;
         max-width: 750px;
-        margin: 20px 0px 30px 0px;
+        margin: 20px auto 30px auto;
         font-weight: normal;
     }
     #cta {
@@ -485,7 +484,7 @@ input:-webkit-autofill {
 }
 #slide6 {
     background-color: #1AB2BE;
-    background-image: url(../img/features/mobileads-hd.jpg);
+    background-image: url(../img/features/mobile-hd.jpg);
     background-position: right center;
     background-repeat: no-repeat;
 }
@@ -500,7 +499,7 @@ input:-webkit-autofill {
         height: 700px;
     }
     #slide0 {
-        background-image: url(../img/features/arm-md.jpg);
+        
     }
     #slide1 {
         background-image: url(../img/features/placeiq-md.png);
@@ -518,7 +517,7 @@ input:-webkit-autofill {
         background-image: url(../img/features/geomarker-md.jpg);
     }
     #slide6 {
-        background-image: url(../img/features/mobileads-md.jpg);
+        background-image: url(../img/features/mobile-md.jpg);
     }
     .aboutContent {
         position: relative;
@@ -562,8 +561,7 @@ input:-webkit-autofill {
     }
     #logo {
         margin: 0px 0px 0px 10%;
-        width: 50px;
-        padding: 10px;
+        width: 60px;
     }
     #menu {
         height: 170px;
@@ -602,8 +600,7 @@ input:-webkit-autofill {
         width: 80%;
     }
     #slide0 {
-        background-position: center bottom;
-        background-image: url(../img/features/arm-sm.jpg);
+     
     }
     #slide1 {
         background-position: right 125%;
@@ -631,7 +628,7 @@ input:-webkit-autofill {
 
 @media screen and (max-width: 600px) {
     h1 {
-        font-size: 2.5em;
+        font-size: 2em;
         line-height: 1.3em;
         margin: 0px 0px 15px 0px;
     }
@@ -639,7 +636,7 @@ input:-webkit-autofill {
         height: 600px;
     }
     .centered {
-        top: 45%;
+        top: 38%;
     }
     #hook {
         font-size: 0.9em;
@@ -663,7 +660,8 @@ input:-webkit-autofill {
         padding-top: 18px;
     }
     #slide0{
-        height: 900px;
+        height: 700px;
+        background-image: url(../img/features/arm-sm.jpg);
     }
     #slide1 {
         background-image: url(../img/features/placeiq-sm.png);
@@ -682,7 +680,7 @@ input:-webkit-autofill {
         background-image: url(../img/features/geomarker-sm.jpg);
     }
     #slide6 {
-        background-image: url(../img/features/mobileads-sm.jpg);
+        background-image: url(../img/features/mobile-sm.jpg);
     }
     #social {
         width: 320px;
@@ -704,15 +702,11 @@ input:-webkit-autofill {
     .homePageSection {
         height: 600px;
     }
-    .centered {
-        top: 40%;
-    }
     #hook {
         font-size: 0.8em;
     }
     #slide0 {
-        background-image: url(../img/features/arm-xs.jpg);
-        height: 770px;
+        height: 700px;
     }
     #slide2 {
         background-image: url(../img/features/eocreport-xs.png);
@@ -727,7 +721,7 @@ input:-webkit-autofill {
         background-image: url(../img/features/geomarker-xs.jpg);
     }
     #slide6 {
-        background-image: url(../img/features/mobileads-xs.jpg);
+        background-image: url(../img/features/mobile-xs.jpg);
     }
 }
 
