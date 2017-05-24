@@ -183,8 +183,26 @@
     background-position: center bottom;
 }
 
+#video {
+    text-align: center;
+}
+#video iframe {
+    width: 853px;
+    height: 480px;
+}
+
 @media screen and (max-width: 980px) {
     #mobileadsHeader {
         background-size: 80%;
+    }
+    #video iframe {
+        width: 640px;
+        height: 360px;
+    }
+}
+@media screen and (max-width: 600px) {
+    #video iframe {
+        width: 360px;
+        height: 203px;
     }
 }
